@@ -1,6 +1,6 @@
 ## Sessions
 
-- [x] Session 1 — ProblemSet1 (2/12), ProblemSet2 (0/12)
+- [x] Session 1 — ProblemSet1 (4/12), ProblemSet2 (0/12)
 - [ ] Session 2
 - [ ] Session 3
 - [ ] Session 4
