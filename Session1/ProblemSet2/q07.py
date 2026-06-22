@@ -1,23 +1,26 @@
-"""Write a function madlib() that accepts one parameter, a string verb. The function should print the sentence: "I have one power. I never <verb>. - Batman".
+"""Write a function nanana_batman() that accepts an integer x and prints the string "nanana batman!" where "na" is repeated x times. Do not use the * operator.
+
 
 Example Usage
 
-verb = "give up"
-madlib(verb)
+x = 6
+nanana_batman(x)
 
-verb = "nap"
-madlib(verb)
+x = 0
+nanana_batman(x)
 Example Output:
 
-"I have one power. I never give up. - Batman"
-"I have one power. I never nap. - Batman"
+"nananananana batman!"
+"batman!"
 """
-def madlib(verb):
-	print(f"I have one power. I never {verb}. - Batman")
-	pass
+def nanana_batman(x):
+	result = ""
+	for i in range(x):
+		result = result + "na"
+	print(result + " batman!")
+		
+x = 6
+nanana_batman(x)
 
-verb = "give up"
-madlib(verb)
-
-verb = "nap"
-madlib(verb)
+x = 0
+nanana_batman(x)
