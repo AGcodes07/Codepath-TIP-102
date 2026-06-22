@@ -24,4 +24,4 @@ items = ["spider man", "batman", "superman", "iron man", "wonder woman", "black 
 print(get_last(items))
 
 items = []
-print(get_last(items))git add . && git commit -m"Q04 problem set 2" && git push
+print(get_last(items))
