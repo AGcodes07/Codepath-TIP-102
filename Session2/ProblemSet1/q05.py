@@ -21,13 +21,14 @@ Example Output:
 """
 
 def final_value_after_operations(operations):
-	tigger = 1
-	for name in operations:
-		if name == "bouncy" or name == "flouncy":
-		    tigger += 1
+    tigger = 1
+    for name in operations:
+        if name == "bouncy" or name == "flouncy":
+            tigger += 1
         if name == "trouncy" or name == "pouncy":
-		    tigger -= 1
-	
+            tigger -= 1
+    return tigger 
+    
 
 operations = ["trouncy", "flouncy", "flouncy"]
 print(final_value_after_operations(operations))
