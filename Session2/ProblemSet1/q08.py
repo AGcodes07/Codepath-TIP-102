@@ -7,8 +7,7 @@ Where:
 
 left_sum[i] is the sum of elements to the left of the index i in the array nums. If there is no such element, left_sum[i] = 0
 right_sum[i] is the sum of elements to the right of the index i in the array nums. If there is no such element, right_sum[i] = 0
-def left_right_difference(nums):
-    pass
+
 Example Usage
 
 nums = [10, 4, 8, 3]
@@ -22,3 +21,19 @@ Example Output:
 [0]
 """
 
+def left_right_difference(nums):
+    total = sum(nums)
+    left = 0
+    answer = []
+    for x in nums:
+        right = total - left - x
+        answer.append(left - right)
+        left += x
+    return answer
+
+
+nums = [10, 4, 8, 3]
+print(left_right_difference(nums))
+
+nums = [1]
+print(left_right_difference(nums))
