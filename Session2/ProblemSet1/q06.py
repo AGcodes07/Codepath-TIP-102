@@ -17,6 +17,8 @@ True
 
 
 def is_acronym(words, s):
-    while True:
-        
-    pass
+    for word in words:
+        if word == 0:
+            words.pop()
+         else:
+            return True
